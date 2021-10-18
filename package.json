@@ -1,0 +1,26 @@
+{
+  "name": "backthehelloff",
+  "version": "1.0.0",
+  "description": "A game about false doctrine and figuring out to do with a really crappy slave",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brymo/BackTheHellOff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brymo/BackTheHellOff/issues"
+  },
+  "homepage": "https://github.com/Brymo/BackTheHellOff#readme",
+  "dependencies": {
+    "tsify": "^5.0.4",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1"
+  }
+}
