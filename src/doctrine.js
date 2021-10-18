@@ -11,7 +11,7 @@ var data = {
         "The Bible was not written to us but was written for us",
         "The Holy Spirit inspired scripture by speaking through them",
         "Those who have not been made right with God will suffer for eternity in hell",
-        "When we pray we are not channeling the Holy Spirit but getting out of his way to let him work"
+        "When we pray we are not channeling the Holy Spirit but getting out of his way to let him work",
     ],
     asceticism: [
         "The material world is evil and the spirit is good",
@@ -23,7 +23,7 @@ var data = {
         "God could not have directly created the universe since perfection cannot create imperfection",
         "Knowledge should be our sole pursuit in life",
         "Pleasure, comfort, and self-indulgence glorifies the flesh and should be avoided at all costs",
-        "Denying oneself of happiness and health is an essential spiritual discipline"
+        "Denying oneself of happiness and health is an essential spiritual discipline",
     ],
     unbridledLicence: [
         "The spirit can never be made evil regardless of our actions",
@@ -32,14 +32,14 @@ var data = {
         "Our eternal lives are not affected by what we do in our physical lives",
         "We should cultivate an indifference to the world of matter and sensation.",
         "Not caring about the material world around us will enable us to engage better with the spiritual",
-        "Living without regulation allows us to truly be freed from the restraints of the physical and live truly spiritual lives"
+        "Living without regulation allows us to truly be freed from the restraints of the physical and live truly spiritual lives",
     ],
     essenes: [
         "Our souls are bound by the flesh and are set free when we deny the flesh",
         "The study and worship of angels should be observed by all",
         "Pooping on the sabbath should be abstained from.  It is unclean.",
         "The sabbath should be reserved solely for prayer and meditation on scripture",
-        "Life is for prayer and religious exercises"
+        "Life is for prayer and religious exercises",
     ],
     powerOfSelfCare: [
         "If you forgive yourself for hurting people, their pain will hold no power over you",
@@ -49,18 +49,18 @@ var data = {
         "Cut out anything in your life that isn’t serving you. Anyone who isn’t waiting on you, hand and foot is toxic",
         "All of your outbursts and cruel behavior are beautiful because they’re part of you",
         "Don’t help people. You are not responsible for their problems",
-        "Never feel guilty for your actions.  Taking responsibility  is painful and therefore not mentally healthy"
+        "Never feel guilty for your actions.  Taking responsibility  is painful and therefore not mentally healthy",
     ],
     secularHumanism: [
         "It is up to us to find our own purpose in life",
         "Everyone has their own truth in life",
         "We do not need divinity to give us a reason to live",
-        "Reliance on the supernatural is an empty distraction to finding true purpose in life"
+        "Reliance on the supernatural is an empty distraction to finding true purpose in life",
     ],
     theSecret: [
         "The pursuit of happiness should be the core objective of life",
         "Positive thinking will attract positive outcomes",
-        "Negative thinking will attract negative outcomes"
+        "Negative thinking will attract negative outcomes",
     ],
     progressiveChristianity: [
         "We were never separated from God by sin.  ",
@@ -70,7 +70,7 @@ var data = {
         "Jesus’ death wasn’t God because we are always",
         "God created the world and is present in it.  All of creation is inherently divine.",
         "No one can be punished eternally in hell.  God loves all of us and it is not in his character to do something as evil as that.",
-        "The teachings of Jesus provide one  of many ways to the sacredness and oneness of life, we can draw from diverse sources of wisdom in our spiritual journey"
+        "The teachings of Jesus provide one  of many ways to the sacredness and oneness of life, we can draw from diverse sources of wisdom in our spiritual journey",
     ]
 };
 exports["default"] = data;

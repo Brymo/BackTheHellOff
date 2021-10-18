@@ -13,6 +13,7 @@ export type Gender = "male" | "female";
 export interface IBuildPastorProfile{
   beliefTypes: DoctrineType[];
   gender: Gender; 
+  keyPoints: number;
 }
 
 
