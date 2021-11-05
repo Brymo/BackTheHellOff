@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.beliefsWithCategories = void 0;
 var data = {
     doctrine: [
         "Suffering is a part of the Christian walk",
@@ -73,4 +74,12 @@ var data = {
         "The teachings of Jesus provide one  of many ways to the sacredness and oneness of life, we can draw from diverse sources of wisdom in our spiritual journey",
     ]
 };
+var beliefsWithCategories = {};
+exports.beliefsWithCategories = beliefsWithCategories;
+var _loop_1 = function (category) {
+    beliefsWithCategories[category] = data[category].map(function (belief) { return ({ category: category, belief: belief }); });
+};
+for (var category in data) {
+    _loop_1(category);
+}
 exports["default"] = data;

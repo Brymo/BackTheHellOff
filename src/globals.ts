@@ -8,13 +8,11 @@ export type DoctrineType =
   | "theSecret"
   | "progressiveChristianity";
 
+
 export type Gender = "male" | "female";
 
-export interface IBuildPastorProfile{
+export interface IBuildPastorProfile {
   beliefTypes: DoctrineType[];
-  gender: Gender; 
+  gender: Gender;
   keyPoints: number;
 }
-
-
-

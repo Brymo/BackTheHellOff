@@ -1,7 +1,6 @@
 import { DoctrineType, IBuildPastorProfile } from "./globals";
 
-
-const data:  Record<DoctrineType, string[]> = {
+const data: Record<DoctrineType, string[]> = {
   doctrine: [
     "Suffering is a part of the Christian walk",
     "Belief in Christ is the only way to be made right with God",
@@ -81,4 +80,19 @@ const data:  Record<DoctrineType, string[]> = {
   ],
 };
 
+export interface ICategoryBeliefPair {
+  category: string;
+  belief: string;
+}
+
+export type TypedBeliefs = Record<DoctrineType, ICategoryBeliefPair[]>;
+
+const beliefsWithCategories = {} as TypedBeliefs;
+for (let category in data) {
+  beliefsWithCategories[category] = data[category].map(
+    (belief) => ({ category, belief } as ICategoryBeliefPair)
+  );
+}
+
 export default data;
+export { beliefsWithCategories };

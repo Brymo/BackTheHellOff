@@ -1,0 +1,39 @@
+#main{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#textElements{
+  background-color: lightgrey;
+  margin-bottom:20px;
+}
+
+#chatBox{
+  width:90vw;
+  min-height: 30vh;
+  background-color:white;
+
+  border: 2px solid lightgrey;
+  padding: 10px;
+
+}
+
+#buttonBar{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+}
